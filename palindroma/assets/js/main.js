@@ -4,5 +4,13 @@
 //Creare una funzione per capire se la parola inserita è palindroma 
 
 const userWord = prompt('Inserisci una parola:');
+console.log(userWord);
+
+const wordLenght = userWord.length;
+console.log(wordLenght);
+
+const halfWord = wordLenght/2;
+console.log(halfWord);
+
 
 
